@@ -455,6 +455,124 @@ section{
         display: flex;
      }
 
+     /* end */
+
+
+     /* contact */
+     .contact .icons-container{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+        gap:1.5;
+
+     }
+
+     .contact .icons-container .icons{
+        padding: 2rem ;
+        box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1) ;
+        border-radius: 2rem;
+        text-align: center;
+        outline:  .1rem solid rgba(0, 0, 0, 1);
+        outline-offset: -1rem;
+     }
+
+     .contact .icons-container .icons i{
+        font-size: 2.5rem ;
+        height: 6rem;
+        width: 6rem;
+        color: #eee;
+        line-height: 6rem;
+        border-radius: 50%;
+        background: #6a4e15;
+     }
+
+
+     .contact .icons-container .icons h3{
+        font-size: 2.2rem;
+        padding: 1rem 0;
+        color: #060404;
+     }
+
+
+     .contact .icons-container .icons p{
+        font-size: 1.5rem;
+        line-height: 2;
+        color: FFA07A ;
+     }
+
+     .contact .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-top: 4rem;
+
+     }
+
+     .contact .row .image{
+        flex: 1 1 20rem;
+
+     }
+
+     .contact .row .image img{
+        width: 100%;
+
+     }
+
+     .contact .row form{
+        flex: 1 1 50rem;
+        padding: 2rem;
+        border: 0.1rem solid rgba(0, 0, 0, 1);
+        border-radius: .5rem;
+     }
+
+
+     .contact .row form h3{
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        color: #060404;
+     }
+
+     .contact .row form .inputBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+
+     .contact .row form .inputBox input{
+        width: 49%;
+     }
+
+     .contact .row form .inputBox input,
+     .contact .row form textarea{
+        font-size:  1.6rem;
+        border: 0.1rem solid rgba(0,0,0,.3);
+        border-radius: 0.5rem;
+        padding: 1rem 1.2rem;
+        margin: .7rem 0;
+
+     }
+
+     .contact .row form .inputBox input:focus,
+     .contact .row form textarea:focus{
+        border: 0.1rem solid orange;
+     }
+
+     .contact .row form textarea{
+        height: 1rem;
+        width: 100%;
+        resize: none;
+     }
+
+
+     /* end */
+
+     /* footer start */
+
+
+
+
+
+
+
+
      
-
-
+     /* footer end */
