@@ -657,4 +657,23 @@ section{
             right: 2rem;
             transition: .4s linear;
         }
+
+        .header .navbar a{
+            font-size: 2rem;
+            margin: 2rem 2.5rem;
+            display:block;
+        }
+        .home .content h3{
+            font-size: 4.5rem;
+        }
+     }
+
+     @media(max-width:450px){
+        html{
+            font-size:50%''
+        }
+
+        .home .content h3{
+            font-size: 4.5rem;
+        }
      }
