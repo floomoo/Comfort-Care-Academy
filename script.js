@@ -5,11 +5,11 @@ document.querySelector('#login-btn').oneclick = () =>{
     navbar.classList.remove('active');
 }
 
-let navbar = document.querySelector('.navbar');
-document.querySelector('#menu-btn').oneclick = () =>{
-    navbar.classList.toggle('active');
-    loginForm.classList.remove(acive);
-}
+// let navbar = document.querySelector('.navbar');
+// document.querySelector('#menu-btn').oneclick = () =>{
+//     navbar.classList.toggle('active');
+//     loginForm.classList.remove(acive);
+// }
 
 window.onscroll = () =>{
     loginForm.classList.remove(acitve);
