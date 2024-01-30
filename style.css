@@ -644,7 +644,7 @@ section{
             display: inline-block;
         }
 
-        .header .navbar{
+         .header{/*.navbar{ */
             position:absolute;
             top:110%;
             width:30rem;
