@@ -622,3 +622,39 @@ section{
      }
 
      /* footer end */
+
+     /* media query */
+
+     @media (max-width:991px){
+        html{
+            font-size: 55%;
+        }
+        .header{
+            padding: 2rem 3rem;
+        }
+
+        section{
+         padding: 3rem;
+        } 
+
+     }
+
+     @media(max-width:768px){
+        #menu-btn{
+            display: inline-block;
+        }
+
+        .header .navbar{
+            position:absolute;
+            top:110%;
+            width:30rem;
+            box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+            border-radius:  .5rem;
+            background: #eee;
+        }
+
+        .header .navbar .active{
+            right: 2rem;
+            transition: .4s linear;
+        }
+     }
