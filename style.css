@@ -644,7 +644,7 @@ section{
             display: inline-block;
         }
 
-         .header{/*.navbar{ */
+         .header{.navbar{
             position:absolute;
             top:110%;
             width:30rem;
@@ -653,12 +653,12 @@ section{
             background: #eee;
         }
 
-        .header /*.navbar*/ .active{
+        .header .navbar .active{
             right: 2rem;
             transition: .4s linear;
         }
 
-         .header /*.navbar*/  a{ 
+         .header .navbar  a{ 
             font-size: 2rem;
             margin: 2rem 2.5rem;
             display:block;
@@ -677,3 +677,4 @@ section{
             font-size: 4.5rem;
         }
      }
+    }
