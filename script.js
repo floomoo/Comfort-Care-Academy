@@ -12,6 +12,6 @@ document.querySelector('#menu-btn').oneclick = () =>{
 }
 
 window.onscroll = () =>{
-    loginForm.classList.remove(acive);
+    loginForm.classList.remove(acitve);
     navbar.classList.remove('active');
 }   
