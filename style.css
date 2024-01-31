@@ -567,12 +567,114 @@ section{
 
      /* footer start */
 
+     .footer{
+        background: #FF00FF;
+     }
 
+     .footer .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+        gap: 1.5rem;
+     }
 
+     .footer .box-container .box h3{
+        font-size: 2.2rem;
+        color:#FFA07A;
+        padding: 1rem 0;
+     }
 
+     .footer .box-container .box p{
+        font-size: 1.5rem;
+        color:#eee;
+        padding: 1rem 0;
+        line-height: 2;
+     }
 
+     .footer .box-container .box a{
+        display: block;
+        font-size: 1.4rem;
+        color:#eee;
+        padding: 1 rem 0;
 
+     }
 
+     .footer .box-container .box a:hover{
+        color: orange;
+     }
 
-     
+     .footer .box-container .box a i{
+        padding-right: .5erem;
+        color:#FFA07A;
+     }
+
+     .footer .credit{
+        margin-top: 2.5rem;
+        padding: 1rem;
+        padding-top: 2rem;
+        border-top: .1rem solid rgba(0,0,0,.3);
+        text-align: center;
+        color:#eee;
+        font-size: 2rem;
+     }
+
+     .footer .credit span{
+        color:#FFA07A;
+     }
+
      /* footer end */
+
+     /* media query */
+
+     @media (max-width:991px){
+        html{
+            font-size: 55%;
+        }
+        .header{
+            padding: 2rem 3rem;
+        }
+
+        section{
+         padding: 3rem;
+        } 
+
+     }
+
+     @media(max-width:768px){
+        #menu-btn{
+            display: inline-block;
+        }
+
+         .header{.navbar{
+            position:absolute;
+            top:110%;
+            width:30rem;
+            box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+            border-radius:  .5rem;
+            background: #eee;
+        }
+
+        .header .navbar .active{
+            right: 2rem;
+            transition: .4s linear;
+        }
+
+         .header .navbar  a{ 
+            font-size: 2rem;
+            margin: 2rem 2.5rem;
+            display:block;
+        }
+        .home .content h3{
+            font-size: 4.5rem;
+        }
+     }
+
+     @media(max-width:450px){
+        html{
+            font-size:50%''
+        }
+
+        .home .content h3{
+            font-size: 4.5rem;
+        }
+     }
+    }
