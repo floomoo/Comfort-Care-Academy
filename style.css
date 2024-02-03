@@ -80,12 +80,13 @@ section{
     font-size: 1.7rem;
     margin: 0 1rem;
     color: #808080;
+    border: solid black;
 }
 
 
 .header .navbar a:hover,
 .header .icons div:hover {
-    color: #808080;
+    color: #921e1e;
 }
 
 .header .icons div{
