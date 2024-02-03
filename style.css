@@ -658,6 +658,8 @@ section{
             transition: .4s linear;
         }
 
+      
+
          .header .navbar  a{ 
             font-size: 2rem;
             margin: 2rem 2.5rem;
@@ -675,6 +677,11 @@ section{
 
         .home .content h3{
             font-size: 4.5rem;
+        }
+
+        .header a .i img{
+            height: 50px;
+            width: 50px;
         }
      }
     }
