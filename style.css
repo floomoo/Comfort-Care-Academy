@@ -96,9 +96,7 @@ section{
 }
 
 
-#menu-btn{
-    display: none;
-}
+
 
 .header .login-form{
     position:absolute;
@@ -640,9 +638,7 @@ section{
      }
 
      @media(max-width:768px){
-        #menu-btn{
-            display: inline-block;
-        }
+        
 
          .header{.navbar{
             position:absolute;
