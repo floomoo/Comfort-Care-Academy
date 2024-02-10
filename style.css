@@ -68,11 +68,11 @@ section{
 .header  .logo{
     font-size: 2.5rem;
     font-weight: bolder;
-    color: #FFA07A;
+    color: #648f49;
 }
 
 .header .logo{
-    color: #FFA07A;
+    color: #a6db42;
 
 }
 
@@ -141,7 +141,7 @@ section{
 }
 
 .header .login-form p a{
-    color: #FF8C00;
+    color: #a9e132;
     text-decoration: underline;
 }
 
@@ -209,7 +209,7 @@ section{
 }
 
 .custom-shape-divider-bottom-1706169071 .shape-fill {
-    fill: #FF00FF;
+    fill: #203ea9;
 }
 
 
@@ -218,7 +218,7 @@ section{
 /* about us */
 
 .about{
-    background: #a646a6;
+    background: #203ea9;
 }
 
 
@@ -282,11 +282,11 @@ section{
 
 
 .education .box-container .box:nth-child(odd){
-    background: pink;
+    background: rgb(227, 29, 62);
 }
 
 .education .box-container .box:nth-child(2){
-    background: orange;
+    background: rgb(137, 230, 83);
 }
 
 
@@ -567,7 +567,7 @@ section{
      /* footer start */
 
      .footer{
-        background: #FF00FF;
+        background: #d82573;
      }
 
      .footer .box-container{
