@@ -456,6 +456,17 @@ section{
 
      /* end */
 
+     /* contact page */
+     .grid-container-9 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+
+     /* contact page */
+
 
      /* contact */
      .contact .icons-container{
@@ -621,6 +632,8 @@ section{
      }
 
      /* footer end */
+
+
 
      /* media query */
 
