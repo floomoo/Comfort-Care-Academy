@@ -198,7 +198,7 @@
     }
 
     section{
-     padding: 3rem;
+     padding: 3rem 3rem;
     } 
 
  }
@@ -230,6 +230,7 @@
     .home .content h3{
         font-size: 4.5rem;
     }
+    
  }
 
  @media(max-width:450px){
